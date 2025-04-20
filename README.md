@@ -5,13 +5,13 @@
 La **triada CIA** es un concepto fundamental en ciberseguridad que abarca tres pilares clave:  
 `Confidentiality, Integrity and Availability`
 
-1. **Confidencialidad**  
+**Confidencialidad**  
    La información debe ser accesible únicamente por personas autorizadas. Es esencial evitar el acceso no autorizado para proteger la privacidad y la seguridad de los datos.
 
-2. **Integridad**  
+**Integridad**  
    La información no debe ser modificada de forma no autorizada. Este pilar garantiza que los datos se mantengan correctos, completos y confiables.
-
-3. **Disponibilidad**  
+   
+**Disponibilidad**  
    La información y los sistemas deben estar disponibles cuando se necesiten. Esto implica mantener la operatividad, prevenir interrupciones y asegurar la recuperación ante fallos.
 
 
@@ -19,13 +19,11 @@ La **triada CIA** es un concepto fundamental en ciberseguridad que abarca tres p
 
 Además de la triada CIA, existen dos principios adicionales que también son fundamentales en ciberseguridad:
 
-- **No repudio**  
-  Este principio garantiza que una persona no pueda negar que realizó una acción, como enviar un mensaje, realizar una transacción o firmar un documento.
+ **No repudio**  
+  Este principio garantiza que una persona no pueda negar que realizó una acción, como enviar un mensaje, realizar una transacción o firmar un documento. 
+  Ejemplo:  *Si firmas un contrato digital con tu certificado digital, ese documento contiene tu firma única. Gracias al no repudio, no puedes negar legalmente que tú lo firmaste, ya que existe evidencia técnica que lo demuestra.*
 
-  **Ejemplo:**  
-  Si firmas un contrato digital con tu certificado digital, ese documento contiene tu firma única. Gracias al no repudio, no puedes negar legalmente que tú lo firmaste, ya que existe evidencia técnica que lo demuestra.
-
-- **Autenticación**  
+**Autenticación**  
   Aunque no forma parte directa de la triada CIA, la autenticación se basa en poder demostrar a partir de varios factores la autenticidad de un usuario para poder autenticarse en un activo, estos factores suelen basarse en:
     1. Lo que el usuario sabe (Ej. contraseña)
     2. Lo que el usuario tiene (Ej. llave de acceso física)
@@ -78,3 +76,14 @@ Estos tipos de malware pueden combinarse entre sí. Por ejemplo, un **troyano** 
 
 ---
 ## Vulnerabilidad, amenaza y riesgo
+
+**Vulnerabilidad**  
+En seguridad informática, una vulnerabilidad es un fallo en la configuración, el diseño o la implementación de un sistema. Se refiere a un defecto dentro de un activo de información, ya sea lógico o físico, que puede poner en riesgo dicho activo en determinadas circunstancias. Este fallo afecta negativamente a los pilares fundamentales de la ciberseguridad.
+
+**Amenaza**  
+Una amenaza es cualquier circunstancia o evento que pueda ocurrir y que, al aprovechar una vulnerabilidad, ponga en riesgo la seguridad de la información. Las amenazas pueden ser de naturaleza **física** o **lógica**.
+
+**Riesgo**  
+El riesgo es la probabilidad de que una amenaza se materialice y afecte a un activo, aprovechando una vulnerabilidad existente.
+
+---
