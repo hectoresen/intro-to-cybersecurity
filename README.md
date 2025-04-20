@@ -33,13 +33,13 @@ Además de la triada CIA, existen dos principios adicionales que también son fu
 
 ## Exploit, Payload y 0day
 
-1. **Exploit**  
+**Exploit**  
    Es un fragmento de código que puede estar escrito en cualquier lenguaje de programación o scripting, y que contiene una serie de instrucciones que permiten alterar el comportamiento normal de un software para aprovechar una vulnerabilidad detectada. Es decir, el exploit interrumpe el funcionamiento correcto del software y abre una puerta para introducir otro código que continuará con la explotación: el **payload**.
 
-2. **Payload**  
+**Payload**  
    Es la acción que se ejecuta una vez que el exploit ha explotado la vulnerabilidad. No se puede ejecutar un payload sin un exploit previo, aunque sí se pueden lanzar exploits que no incluyan un payload.
 
-3. **0day**  
+**0day**  
    Se refiere a vulnerabilidades que son conocidas por muy pocas personas (incluso solo una), y que, sobre todo, **no han sido parcheadas** por el fabricante. Son especialmente peligrosas por su carácter desconocido y la falta de solución disponible.
 
 ---
